@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="Stylesheet" href="style.css">
+        </head>
+
+        <body>
+            <section class="major-display">
+                <header class="main-header">
+                    <h1 class="logo">Vibes</h1>
+                    <div class="toogle"></div>
+                </header>
+                
+                <video class="active" src="pexels-darina-belonogova-7198933.mp4" muted autoplay loop ></video>
+        
+                <div class="overlay"></div>
+        
+                <div class="text">
+                    <h3>Never Stop</h3>
+                    <h2>The Music</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, error! Inventore hic eligendi laborum, animi aut nesciunt facilis fuga sed?</p>
+        
+                    <a href="#">More Vibe</a>
+                </div>
+              
+        
+                <ul class="logos">
+                    <li>
+                        <a href="#"><img src="14498067661530099611-128.png" alt="facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="3199256211543238897-128.png" alt="instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="13295027321554469048-128.png" alt="twitter"></a>
+                    </li>
+                </ul>
+            </section>
+            <section class="menu">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Connect With Us</a>
+                    </li>
+                    <li>
+                        <a href="#">More Info</a>
+                    </li>
+                    <li>
+                        <a href="#">Partnerships</a>
+                    </li>
+                </ul>
+            </section>
+
+            <script>
+                const menuToogle = document.querySelector('.toogle')
+                const majorDisplay = document.querySelector('.major-display')
+                
+                menuToogle.addEventListener("click", showCase)
+
+            function showCase() {
+                menuToogle.classList.toggle("active")
+                majorDisplay.classList.toggle("active")
+            }
+
+            </script>
+        </body>
+    </html>
